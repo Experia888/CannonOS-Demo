@@ -2,6 +2,7 @@
 Automatic Coordinate Targeting System Demo
 
 ## Installation
+Requires Advanced Peripherals by default, but you can change the way the redstone outputs in the code functions!
 Set up a disk drive next to an Advanced Computer.
 Enter the following:
 
