@@ -13,8 +13,8 @@
 local powderCharges = 8 --Number of powder charges. This code assumes you get the maximum velocity from each powder charge
 local rpm = 4 --RPM for rotating cannon pitch and yaw (recommended 4, only the cannon pitch and yaw have to use this speed)
 local reloadTime = 15 --Time in seconds for your cannon to reload, if you want to use computercraft to automate your reload, implement it in reloadCannon()
-local barrelLength = 30 --Length of barrel in blocks
-local cannonLocationX,cannonLocationY,cannonLocationZ = 180,14,-69 --X,Y,Z coordinates of your cannon.
+local barrelLength = <TODO: Lenght Here> --Length of barrel in blocks from the cannon location to the tip
+local cannonLocationX,cannonLocationY,cannonLocationZ = <x>,<y>,<z> --X,Y,Z coordinates of your cannon.
 local offsetAngle = -180 --This cannon points east by default
 local projectileAccuracy = 0.001 --Distance accuracy (lower numbers are more accurate. too low and it'll time out, too high and you will miss by 39 nautical miles)
 
