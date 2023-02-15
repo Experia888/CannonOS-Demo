@@ -74,8 +74,8 @@ function simulate_projectile(velocity, angle, height, barrel_len)
         vy = vy - gravity / 20
 
         -- update velocity with drag
-        vx = vx * 0.99
-        vy = vy * 0.99
+        vx = vx * drag
+        vy = vy * drag
 
         -- check if the altitude of the target is hit
         if y <= 0 and is_above_target then
